@@ -1,11 +1,6 @@
-<h1 align="center">👋 ¡Hola! Soy Lisandro Semperez</h1>
-<h3 align="center">🚀 Desarrollador .NET MAUI & Multiplataforma | C# | Arquitecturas Limpias</h3>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/lisandro-semperez-24b1782b8/">LinkedIn</a> •
-  <a href="mailto:lisandrosemperez@gmail.com">Email</a> •
-  <a href="https://github.com/lisandrosemperez-collab/AnotadorGymApp">Proyecto Destacado</a>
-</p>
+<h1 align="center">👋 ¡Hola! Soy Lisandro Semperez</h1> 
+<h3 align="center">🚀 Desarrollador .NET MAUI & Backend | C# | Arquitecturas Limpias | Full-Stack</h3><p align="center"> 
+  <a href="https://www.linkedin.com/in/lisandro-semperez-24b1782b8/">LinkedIn</a> • <a href="mailto:lisandrosemperez@gmail.com">Email</a> • <a href="https://github.com/lisandrosemperez-collab/AnotadorGymApp">App Móvil</a> • <a href="https://github.com/lisandrosemperez-collab/AnotadorGymAppApi">API Backend</a> • <a href="https://anotadorgymappapi-production.up.railway.app/index.html">API en Vivo</a> </p>
 
 ---
 
@@ -13,71 +8,93 @@
 
 Desarrollador especializado en el ecosistema .NET, con un fuerte enfoque en crear **aplicaciones móviles multiplataforma nativas** usando .NET MAUI. Me apasiona implementar **arquitecturas limpias, código mantenible y experiencias de usuario fluidas**. 
 
-A continuación, destaco mi proyecto principal, que sintetiza mi enfoque técnico y capacidad para llevar una aplicación a un estado funcional y pulido.
+Mi enfoque se basa en construir soluciones integrales: diseño la API, la despliego en la nube, y desarrollo la app que la consume, garantizando coherencia y calidad en todas las capas.
 
 ---
 
-## 🏆 **Proyecto Destacado: Demostración de Habilidades**
+## 🏆 Proyecto Destacado: Ecosistema Completo .NET
 
-### [🏋️ AnotadorGymApp - Aplicación MAUI Completa](https://github.com/lisandrosemperez-collab/AnotadorGymApp)
-**Sistema profesional de tracking de entrenamientos que desarrollé desde cero.**
+### [🏋️ AnotadorGymApp - Aplicación MAUI Completa](https://github.com/lisandrosemperez-collab/AnotadorGymApp) + [🌐 API Backend](https://github.com/lisandrosemperez-collab/AnotadorGymAppApi)
+**Sistema profesional de tracking de entrenamientos que desarrollé desde cero, compuesto por una app móvil multiplataforma y una API RESTful desplegada en la nube.**
 
-Este proyecto funciona como mi **carta de presentación técnica**, demostrando de manera práctica mis habilidades en:
-- **Desarrollo Multiplataforma** con .NET MAUI y C#.
-- **Arquitectura de Software** (Clean Architecture, MVVM, Repository Pattern).
-- **Persistencia de Datos Avanzada** con SQLite y **Entity Framework Core**.
-- **Optimización** y **Experiencia de Usuario** profesional.
+Este ecosistema demuestra mis **habilidades** en:
+### 📱 Desarrollo Móvil (.NET MAUI)
+- **Arquitectura Clean / MVVM** con separación en capas.
+- **Persistencia local con SQLite y Entity Framework Core** (incluyendo migraciones).
+- **Sincronización con API REST** para mantener datos actualizados.
+- **UI/UX profesional:** temas claro/oscuro dinámicos, splash screen con progreso, gráficos interactivos (Microcharts).
+- **Gestión de imágenes** optimizada y offline-first.
+- 
+### 🌐 Backend API (.NET 9)
 
+- **API RESTful** con controladores, autenticación JWT y documentación Swagger.
+- **Base de datos PostgreSQL** en Neon con más de 900 ejercicios precargados.
+- **Importación masiva** de ejercicios desde archivos JSON (validación, límites de tamaño).
+- **Contenedorización** con Docker y despliegue automatizado en Railway.
+- **Variables de entorno** para seguridad (JWT, cadenas de conexión).
+
+### 🔗 Integración Total
+- La app móvil consume la API para sincronizar ejercicios y rutinas.
+- La base de datos en la nube (Neon) alimenta la app local (SQLite) para uso offline.
+- Flujo completo: backend → nube → frontend móvil.
+  
 ---
 
 ## 🛠️ **Stack Tecnológico Principal**
 
-### **💻 Desarrollo Multiplataforma**
-![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+### 💻 Backend & API
+![.NET 9](https://img.shields.io/badge/.NET_9-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![SWAGGER](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
+### 📱 Frontend Móvil
+![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=xaml&logoColor=white)
+![Microcharts](https://img.shields.io/badge/Microcharts-FF6F00?style=for-the-badge)
 
 ### **🗄️ Bases de Datos & Persistencia**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=Neon&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-### **📊 Visualización de Datos**
-![Microcharts](https://img.shields.io/badge/Microcharts-FF6F00?style=for-the-badge)
-![Charts](https://img.shields.io/badge/Data_Visualization-4285F4?style=for-the-badge)
+### **☁️ DevOps & Cloud**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=Railway&logoColor=white)
 
 ---
 
 ## ⚙️ **Características Técnicas Avanzadas Implementadas**
 
-### **🏗️ Arquitectura & Patrones**
-- **Inyección de Dependencias** - Servicios modularizados y testables
-- **Patrón Repository** - Separación clara entre lógica de negocio y datos
-- **Servicios Especializados:**
-  - `DataService` - Gestión de operaciones CRUD complejas
-  - `ConfigService` - Manejo centralizado de configuraciones
-  - `ImageService` - Carga y cache de imágenes optimizada
-- **Clean Architecture** - Separación en capas claramente definidas
+### **🏗️ Arquitectura & Patrones (Backend)**
+- **API RESTful** con separación de responsabilidades (controladores/servicios).
+- **Autenticación JWT** con políticas de autorización.
+- **Inyección de dependencias nativa de .NET** 
+- **Documentación automática con Swagger/OpenAPI.**
 
-### **📱 Experiencia de Usuario Premium**
+### **🏗️ Arquitectura & Patrones (Móvil)**
 - **Splash Screen Inteligente** con ProgressBar que muestra:
   - Inicialización de base de datos
   - Carga de datos desde JSON
   - Verificación de integridad de datos
+  - Servicios de Imágenes para Rutinas
 - **Tema Claro/Oscuro** implementado globalmente
   - Cambio en tiempo real sin reiniciar la app
   - Persistencia de preferencias del usuario
 - **UI/UX optimizada** para diferentes tamaños de pantalla
 
 ### **🗄️ Gestión de Datos Profesional**
-- **Base de datos SQLite con Entity Framework Core** - ORM completo para mapeo objeto-relacional
-- **Sistema de seeding desde JSON** - Poblado automático inicial usando migraciones EF Core
-- **Code-First Development** - Modelo de dominio define el esquema de base de datos
+- **Backend:** PostgreSQL con Entity Framework Core, migraciones automáticas y seeding de 900+ ejercicios.
+- **Móvil:** SQLite local con EF Core, sincronización bidireccional con la API.
+- **Sistema de seeding desde JSON** - Poblado automático inicial usando migraciones EF Core.
 - **Relaciones complejas mapeadas por EF Core:**
   - Ejercicios ↔ Rutinas
   - Historial de entrenamientos
   - Progreso del usuario
-- **Optimización de consultas** con LINQ y configuraciones específicas de EF Core
+- **Optimización de consultas** con LINQ y configuraciones específicas de EF Core.
 
 ### **📊 Métricas & Analytics**
 - **Gráficos interactivos** con Microcharts
@@ -85,143 +102,64 @@ Este proyecto funciona como mi **carta de presentación técnica**, demostrando 
 - **Seguimiento de progreso** histórico
 - **Exportación de datos**
 
+### **🔐 Seguridad**
+- **JWT** para endpoints protegidos (importación/validación).
+- **Variables de entorno** para secretos (cadena de conexión, claves JWT).
+- **Validación de archivos** (tamaño, extensión, estructura) en la API.
+
+### **🚀 DevOps & Cloud**
+- **Docker** multi-stage para imágenes optimizadas.
+- **Despliegue continuo desde GitHub a Railway.**
+- **Base de datos PostgreSQL en Neon** (totalmente gestionada, gratis y rápida).
+- **Configuración de entorno diferenciada** (desarrollo/producción).
+
 ---
 
+```mermaid
+graph LR
+    A[App MAUI] -->|HTTP/HTTPS| B[API Railway]
+    B --> C[(PostgreSQL Neon)]
+    A --> D[(SQLite Local)]
+    
+    subgraph "Desarrollo Local"
+        E[API Local] --> F[(PostgreSQL Local/Neon)]
+    end
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+```
 ## 🏗️ **Arquitectura del Proyecto**
 
-La aplicación sigue el patrón **Model-View-ViewModel (MVVM)** y está organizada en una estructura modular centrada en páginas y funcionalidades, lo que facilita la navegación y el mantenimiento del código.
+### 📱 App MAUI (Cliente)
+- Consume la API para poblar base de datos local SQLite con ejercicios (próximamente también rutinas).
+- Almacena datos localmente (modo offline).
+- Interfaz adaptable con temas claro/oscuro.
 
-```csharp
-AnotadorGymApp/ # 🎨 CAPA DE PRESENTACIÓN (App .NET MAUI)
-│
-├── AppShell.xaml (.cs) # Navegación principal con Shell
-├── MauiProgram.cs # Configuración e Inyección de Servicios
-│
-├── 📱 Páginas (Vistas y Lógica de UI)
-│ ├── MainPage/
-│ │ ├── MainPage.xaml (.cs) # Vista principal (Dashboard)
-│ │ ├── SplashPage.xaml (.cs) # Pantalla de inicio con ProgressBar
-│ │ └── ResumenSemanal.cs # Modelo/VistaModelo para resumen
-│ │
-│ ├── RutinasPage/
-│ │ ├── PrincipalRutinasPage.xaml (.cs) # Vista lista de rutinas
-│ │ ├── AgregarRutinaPage.xaml (.cs) # Vista creación/edición
-│ │ └── ComienzoRutinaPage.xaml (.cs) # Vista detalle y ejecución
-│ │
-│ ├── MetricasPage/
-│ │ └── MetricasPage.xaml (.cs) # Vista de gráficos y estadísticas
-│ │
-│ ├── ConfiguracionPage/
-│ │ └── ConfigPage.xaml (.cs) # Vista de ajustes y tema
-│ │
-│ ├── RegistroEjercicios/ # Lógica para métricas
-│ │ ├── ChartsService.cs # Servicio de generación de gráficos
-│ │ └── EjercicioConMetricas.cs # Modelo para métricas
-│ │
-│ └── PopUp/
-│ └── BuscarEjerciciosPopUp.xaml (.cs) # Diálogo modal reutilizable
-│
-├── 🛠️ Servicios de Aplicación
-│ ├── ConfigService.cs # Gestión de configuración y preferencias
-│ └── ImagenPersistenteService.cs # Manejo y persistencia de imágenes
-│
-└── 🎨 Recursos
-├── Styles/
-│ ├── Styles.xaml (.cs) # Estilos base
-│ ├── LightTheme.xaml (.cs) # Tema claro (implementación dinámica)
-│ └── DarkTheme.xaml (.cs) # Tema oscuro (implementación dinámica)
-│
-├── Images/
-│ ├── [iconos].png # Iconos de la aplicación
-│ └── RutinasImages/
-│ └── [rutinas].jpg # Imágenes predefinidas para rutinas
-│
-├── Fonts/ # Fuentes personalizadas (.otf, .ttf)
-└── Raw/
-└── Ejercicios.json # Base de datos semilla (+1000 ejercicios)
+### 🌐 API Backend (Servidor)
+- Endpoints RESTful documentados con Swagger.
+- Autenticación JWT para operaciones sensibles.
+- Lógica de negocio y acceso a datos con EF Core.
+- Desplegada en Railway con Docker.
 
-AnotadorGymApp.Data/ # 💾 CAPA DE DOMINIO Y DATOS (Librería .NET)
-│
-├── 💾 DataService.cs # REPOSITORIO PRINCIPAL
-│ # - Implementa el Patrón Repository
-│ # - Gestión CRUD completa usando Entity Framework Core
-│ # - Carga optimizada por lotes desde JSON
-│ # - Caché en memoria y configuración SQLite (WAL mode)
-│
-├── 🗃️ Entidades (Modelo de Dominio)
-│ ├── Rutinas.cs # Entidad principal de rutina (mapeada por EF Core)
-│ ├── Exercise.cs # Entidad de ejercicio (mapeada por EF Core)
-│ └── Muscles.cs # Entidad para clasificación muscular (mapeada por EF Core)
-│
-├── 📄 DTOs y Modelos de Persistencia
-│ └── ExerciseJson.cs # Modelo para deserialización del JSON
-│
-└── 🗄️ DataBase.cs (DbContext) # Contexto de EF Core para SQLite
-└── Migrations/ # Historial de migraciones automáticas de EF Core
-```
-
-### **🗄️ Persistencia con Entity Framework Core**
-La capa de datos utiliza **Entity Framework Core 8** con el proveedor **SQLite**. Esta elección permite:
-- **Enfoque Code-First**: Las entidades de dominio (`Rutinas`, `Exercise`) definen el esquema de la base de datos.
-- **Migraciones automáticas**: La carpeta `Migrations/` contiene el historial de cambios en el esquema, gestionado por EF Core.
-- **Consultas LINQ integradas** y manejo eficiente de relaciones (como `Rutina ↔ Exercise`).
-- **Configuración de rendimiento** (como el modo WAL) aplicada a través del `DbContext`.
-
-### **🔧 Flujo y Comunicación entre Capas**
-
-1.  **Inicio y Configuración**: `MauiProgram.cs` registra y construye los servicios (`DataService`, `ConfigService`) que se inyectan en las páginas.
-2.  **Presentación (MVVM)**: Las **Vistas** (`*.xaml`) usan **Data Binding** para conectarse a la lógica en sus **Code-Behind/Vistas-Modelo** (`*.xaml.cs`, `ResumenSemanal.cs`).
-3.  **Lógica de Negocio**: Las páginas y servicios de la UI consumen el `DataService`, que actúa como un **Único Punto de Acceso** (Facade/Repository) a todos los datos.
-4.  **Persistencia**: El `DataService` utiliza el `DataBase` (DbContext de EF Core) para realizar operaciones **CRUD** en la base de datos SQLite, aprovechando el mapeo objeto-relacional, **LINQ** y las migraciones.
-5.  **Separación Física**: La capa de datos es un **proyecto de librería de clase separado** (`AnotadorGymApp.Data.csproj`), forzando una dependencia unidireccional y limpia.
-
-**Esta estructura refleja fielmente tu implementación y destaca las decisiones técnicas maduras que ya has tomado, como la separación de proyectos y el uso del patrón Repository.**
-
-### **🎨 Características de UI/UX**
-## Temas Implementados
-```xml
-<!-- Sistema de temas dinámicos -->
-<ResourceDictionary Source="{AppThemeBinding Light=LightTheme.xaml,
-                                              Dark=DarkTheme.xaml}" />
-
-<!-- Uso en toda la aplicación -->
-<Label Text="Bienvenido" 
-       TextColor="{DynamicResource PrimaryTextColor}" />
-```
-
-## **Servicios de Imágenes**
-
-- Loading states con placeholders
-
-- Optimización para diferentes resoluciones
-
-- Fallback a imágenes por defecto
+### 🗄️ Base de Datos (Neon)
+- PostgreSQL en la nube, con 900+ ejercicios precargados.
+- Escalable y con backups automáticos.
 
 ## **🔮 Roadmap & Mejoras Futuras**
+
 ### **✅ COMPLETADO**
-- Base de datos con seeding desde JSON
-
-- Sistema de temas claro/oscuro
-
-- Métricas con gráficos
-
-- Inyección de dependencias
-
-- Servicios modularizados
+- ✅ API RESTful con autenticación JWT y documentación Swagger.
+- ✅ Despliegue en Railway con Docker.
+- ✅ Base de datos PostgreSQL en Neon con seeding masivo.
+- ✅ App MAUI con SQLite, temas claro/oscuro, gráficos y splash screen.
+- ✅ Sincronización básica entre app y API.
 
 ### **🚧 EN PROGRESO**
-- Sincronización en la nube
-
-- Backup/restore de datos
-
-- Compartir rutinas
-
-### **📅 PLANIFICADO**
-- IA para sugerencias de rutinas
-
-- Integración con wearables
+- 🔄 Sincronización bidireccional completa (offline-first robusto).
+- 🔄 Sistema de caché avanzado en la app.
+- 🔄 Tests unitarios en API y app.
 
 ## **📫 Conectemos**
-<p align="center"> <a href="https://www.linkedin.com/in/lisandro-semperez-24b1782b8/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="mailto:lisandrosemperez@gmail.com"> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> <a href="https://github.com/lisandrosemperez-collab/AnotadorGymApp"> <img src="https://img.shields.io/badge/Ver_Proyecto_Completo-GitHub-black?style=for-the-badge&logo=github" alt="GitHub"/> </a> </p>
 
-<p align="center"> <i>"Convierto café en código, y problemas en soluciones elegantes."</i><br> <sub>Buscando oportunidades para crear aplicaciones que impacten positivamente.</sub> </p>
+<p align="center"> <a href="https://www.linkedin.com/in/lisandro-semperez-24b1782b8/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="mailto:lisandrosemperez@gmail.com"> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> <a href="https://anotadorgymappapi-production.up.railway.app/index.html"> <img src="https://img.shields.io/badge/Ver_API_en_Vivo-Railway-0B0D0E?style=for-the-badge&logo=Railway" alt="API en vivo"/> </a> <a href="https://github.com/lisandrosemperez-collab/AnotadorGymApp"> <img src="https://img.shields.io/badge/Ver_App_MAUI-GitHub-black?style=for-the-badge&logo=github" alt="App MAUI"/> </a> </p><p align="center"> <i>"Convierto café en código, y problemas en soluciones elegantes."</i><br> <sub>Buscando oportunidades para crear aplicaciones completas que impacten positivamente.</sub> </p>
